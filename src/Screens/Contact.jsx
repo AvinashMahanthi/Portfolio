@@ -56,7 +56,14 @@ const Contact = () => {
         <div className="container contact-div">
           <div className="row">
             <div className="col-md-5 col-10 mx-auto">
-              <form onSubmit={sendEmail}>
+              <form
+                name="contact"
+                method="post"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                onSubmit={sendEmail}
+              >
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group">
                   <label htmlFor="exampleInputPassword1">Name</label>
                   <input
