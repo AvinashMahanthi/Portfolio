@@ -4,6 +4,8 @@ import weather from "../assets/images/React-weather-App1.png";
 import xylophone from "../assets/images/Xylophone.png";
 import flutterWeather from "../assets/images/weatherapp.png";
 import day from "../assets/images/30day.png";
+import club from "../assets/images/club.png";
+import crypto from "../assets/images/chuck-crypto.png";
 
 const ProjectData = [
   {
@@ -37,6 +39,14 @@ const ProjectData = [
     imgsrc: day,
   },
   {
+    title: "College club App",
+    description:
+      "A static app for the college club to get all the updates of the college.",
+    repo: "https://github.com/AvinashMahanthi/Flutter_LoginUI-s",
+    livehere: "",
+    imgsrc: club,
+  },
+  {
     title: "Rock-Paper-Scissor",
     description:
       "A Rock Paper Scissor game made by using Only HTML, CSS and JS",
@@ -53,9 +63,17 @@ const ProjectData = [
     imgsrc: weather,
   },
   {
+    title: "Crypto Handler",
+    description:
+      "A frontend web application for managing the cryptocurriencies, done by using React",
+    repo: "https://github.com/AvinashMahanthi/cryptoAgency",
+    livehere: "chuck-crypto-agency.herokuapp.com/",
+    imgsrc: crypto,
+  },
+  {
     title: "React To-do list",
     description:
-      "A music app done by using flutterA react application to make a TO-DO list, which includes the functionalities like adding and deleting tasks.",
+      "A react application to make a TO-DO list, which includes the functionalities like adding and deleting tasks.",
     repo: "https://github.com/AvinashMahanthi/TODO-task-manager",
     livehere: "",
     imgsrc: "https://imgur.com/a/uavtvzU",
