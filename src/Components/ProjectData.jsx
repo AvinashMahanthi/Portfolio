@@ -48,8 +48,7 @@ const ProjectData = [
   },
   {
     title: "Rock-Paper-Scissor",
-    description:
-      "A Rock Paper Scissor game made by using Only HTML, CSS and JS",
+    description: "A Rock Paper Scissor game to play around when you are bored.",
     repo: "https://github.com/AvinashMahanthi/Rock-Paper-Scissor",
     livehere: "https://avinashmahanthi.github.io/Rock-Paper-Scissor/",
     imgsrc: Rock,
@@ -57,7 +56,7 @@ const ProjectData = [
   {
     title: "React Weather App",
     description:
-      "A weather web application that fetches the weather data of a particular location, done by using React",
+      "A React weather web application that fetches the weather data of a particular location",
     repo: "https://github.com/AvinashMahanthi/Weather-app",
     livehere: "https://avinashmahanthi.github.io/Weather-app/",
     imgsrc: weather,
@@ -65,9 +64,9 @@ const ProjectData = [
   {
     title: "Crypto Handler",
     description:
-      "A frontend web application for managing the cryptocurriencies, done by using React",
+      "A React frontend web application for managing the cryptocurriencies",
     repo: "https://github.com/AvinashMahanthi/cryptoAgency",
-    livehere: "chuck-crypto-agency.herokuapp.com/",
+    livehere: "https://chuck-crypto-agency.herokuapp.com/",
     imgsrc: crypto,
   },
   {

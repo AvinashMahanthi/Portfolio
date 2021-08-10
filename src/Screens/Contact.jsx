@@ -21,6 +21,7 @@ const Contact = () => {
     });
   };
   // const Errornotify = () => toast("Some thing has gone wrong, Plz try again!");
+
   const [result, showResult] = React.useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
