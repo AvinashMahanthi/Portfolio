@@ -5,7 +5,9 @@
   --primary-white:#fff;
   --primary-dark: rgba(255,255,255,0);
   --primary-black: #000;
-  --primary-v: #610f70
+  --primary-v: #610f70;
+
+  --ease-out-quad: cubic-bezier(0.25,0.46,0.45,0.94);
 }
 
 body{
@@ -176,6 +178,41 @@ nav .nav-link{
 .btn-repo:hover {
   background: #610f70;
   color: #fff;
+}
+
+/* ************** Blogs and Articles  ************** */
+
+.blogs h2{
+  padding-top: 2rem;
+  color: var(--primary-v);
+}
+
+.blog-img{
+  /* width: 30%; */
+  border-radius: .5rem;
+  overflow: hidden;
+  position: relative;
+  height:280px;
+  box-shadow: rgb(0 0 0 / 22%) 0px 30px 60px -10px, rgb(0 0 0 / 25%) 0px 18px 36px -18px;
+  margin-bottom: 30px;
+  transition: transform 0.3s var(--ease-out-quad),box-shadow 0.3s var(--ease-out-quad);
+}
+.blog-card a{
+  display: block;
+}
+
+.blog-card{
+  margin-top: 1rem;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+.blog-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
