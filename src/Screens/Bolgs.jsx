@@ -1,17 +1,30 @@
 import React from "react";
-import construction from "../assets/images/404.png";
+import BlogCard from "../Components/BlogCard";
+import BlogData from "../Components/BlogData";
+import Typed from "react-typed";
 
 const Bolgs = () => {
   return (
-    <div className="my-5 mx-auto">
-      <h1 className="d-flex justify-content-center construction">
-        Under Construction
-      </h1>
-      <h6 className="d-flex justify-content-center">
-        Sorry, I'm Currently Working On this Section.
-      </h6>
-      <div className="header-img">
-        <img src={construction} alt="home" className="img-fluid animated" />
+    <div id="blog" className="my-4 mx-auto blog px-5">
+      <Typed
+        className="typed d-flex justify-content-center font-weight-bold pb-2"
+        strings={["My Blogs on Tech..."]}
+        typeSpeed={40}
+      />
+      <div className="row">
+        {BlogData.map((value, ind) => {
+          return (
+            <BlogCard
+              key={ind}
+              title={value.title}
+              description={value.description}
+              published={value.published}
+              read={value.read}
+              imgsrc={value.imgsrc}
+              link={value.link}
+            ></BlogCard>
+          );
+        })}
       </div>
     </div>
   );

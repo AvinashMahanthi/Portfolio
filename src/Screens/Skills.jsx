@@ -17,17 +17,19 @@ const Skills = () => {
             <SkillCard iconsrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" />
             <SkillCard iconsrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
             <SkillCard iconsrc="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" />
+            <SkillCard iconsrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
             <SkillCard iconsrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" />
           </div>
           {/*  */}
 
           <h2>FrameWorks:</h2>
           <div className="pt-2 pt-lg-1 d-flex mr-auto flex-row">
+            <SkillCard iconsrc="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" />
+            <SkillCard iconsrc="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" />
             <SkillCard iconsrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" />
             <SkillCard iconsrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" />
             <SkillCard iconsrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" />
-            <SkillCard iconsrc="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" />
-            <SkillCard iconsrc="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" />
+            <SkillCard iconsrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" />
           </div>
 
           {/*  */}

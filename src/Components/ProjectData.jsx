@@ -1,27 +1,27 @@
 import BMI from "../assets/images/BMI.png";
 import Rock from "../assets/images/rock-paper-scissor.png";
 import weather from "../assets/images/React-weather-App1.png";
-import xylophone from "../assets/images/Xylophone.png";
 import flutterWeather from "../assets/images/weatherapp.png";
 import day from "../assets/images/30day.png";
 import club from "../assets/images/club.png";
 import crypto from "../assets/images/chuck-crypto.png";
+import portfolio from "../assets/images/portfolio.png";
 
 const ProjectData = [
   {
-    title: "Flutter Xylophone App",
-    description: "A Xylophone music app done by using flutter",
-    repo: "https://github.com/AvinashMahanthi/Xylophone",
+    title: "College club App",
+    description:
+      "A static app for the college club to get all the updates of the college.",
+    repo: "https://github.com/AvinashMahanthi/Flutter_LoginUI-s",
     livehere: "",
-    imgsrc: xylophone,
+    imgsrc: club,
   },
   {
-    title: "BMI Calculator",
-    description:
-      "A BMI Calculator,which is a multi screen app with simple functionality and full-on custom styling done by using flutter",
-    repo: "https://github.com/AvinashMahanthi/bmi-calculator-flutter",
+    title: "30-days flutter UI",
+    description: "Collection of Auth UI's made under a 30-days of challange",
+    repo: "https://github.com/AvinashMahanthi/Flutter_LoginUI-s",
     livehere: "",
-    imgsrc: BMI,
+    imgsrc: day,
   },
   {
     title: "Flutter Weather App",
@@ -32,19 +32,12 @@ const ProjectData = [
     imgsrc: flutterWeather,
   },
   {
-    title: "30-days flutter UI",
-    description: "Collection of Auth UI's made under a 30-days of challange",
-    repo: "https://github.com/AvinashMahanthi/Flutter_LoginUI-s",
-    livehere: "",
-    imgsrc: day,
-  },
-  {
-    title: "College club App",
+    title: "BMI Calculator",
     description:
-      "A static app for the college club to get all the updates of the college.",
-    repo: "https://github.com/AvinashMahanthi/Flutter_LoginUI-s",
+      "A BMI Calculator,which is a multi screen app with simple functionality and full-on custom styling done by using flutter",
+    repo: "https://github.com/AvinashMahanthi/bmi-calculator-flutter",
     livehere: "",
-    imgsrc: club,
+    imgsrc: BMI,
   },
   {
     title: "Rock-Paper-Scissor",
@@ -52,6 +45,14 @@ const ProjectData = [
     repo: "https://github.com/AvinashMahanthi/Rock-Paper-Scissor",
     livehere: "https://avinashmahanthi.github.io/Rock-Paper-Scissor/",
     imgsrc: Rock,
+  },
+  {
+    title: "Portfolio",
+    description:
+      "My personal Portfolio which includes all my works and projects at which u are looking at!",
+    repo: "https://github.com/AvinashMahanthi/WeatherApp",
+    livehere: "https://avinashmahanthi.tech/",
+    imgsrc: portfolio,
   },
   {
     title: "React Weather App",
