@@ -40,19 +40,27 @@ const ProjectData = [
     imgsrc: BMI,
   },
   {
-    title: "Rock-Paper-Scissor",
-    description: "A Rock Paper Scissor game to play around when you are bored.",
-    repo: "https://github.com/AvinashMahanthi/Rock-Paper-Scissor",
-    livehere: "https://avinashmahanthi.github.io/Rock-Paper-Scissor/",
-    imgsrc: Rock,
-  },
-  {
     title: "Portfolio",
     description:
       "My personal Portfolio which includes all my works and projects at which u are looking at!",
     repo: "https://github.com/AvinashMahanthi/WeatherApp",
     livehere: "https://avinashmahanthi.tech/",
     imgsrc: portfolio,
+  },
+    {
+    title: "Waste knot",
+    description:
+      "Landing page for an Organization",
+    repo: "",
+    livehere: "https://nervous-heisenberg-cb83b3.netlify.app/",
+    imgsrc: crypto,
+  },
+  {
+    title: "Rock-Paper-Scissor",
+    description: "A Rock Paper Scissor game to play around when you are bored.",
+    repo: "https://github.com/AvinashMahanthi/Rock-Paper-Scissor",
+    livehere: "https://avinashmahanthi.github.io/Rock-Paper-Scissor/",
+    imgsrc: Rock,
   },
   {
     title: "React Weather App",
@@ -69,14 +77,6 @@ const ProjectData = [
     repo: "https://github.com/AvinashMahanthi/cryptoAgency",
     livehere: "https://chuck-crypto-agency.herokuapp.com/",
     imgsrc: crypto,
-  },
-  {
-    title: "React To-do list",
-    description:
-      "A react application to make a TO-DO list, which includes the functionalities like adding and deleting tasks.",
-    repo: "https://github.com/AvinashMahanthi/TODO-task-manager",
-    livehere: "",
-    imgsrc: "https://imgur.com/a/uavtvzU",
   },
 ];
 
