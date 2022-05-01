@@ -1,4 +1,4 @@
-import BMI from "../assets/images/BMI.png";
+import BMI from "../assets/images/BMI2.png";
 import Rock from "../assets/images/rock-paper-scissor.png";
 import weather from "../assets/images/React-weather-App1.png";
 import flutterWeather from "../assets/images/weatherapp.png";
@@ -6,6 +6,7 @@ import day from "../assets/images/30day.png";
 import club from "../assets/images/club.png";
 import crypto from "../assets/images/chuck-crypto.png";
 import portfolio from "../assets/images/portfolio.png";
+import wasteknot from "../assets/images/Wasteknot.png";
 
 const ProjectData = [
   {
@@ -47,13 +48,13 @@ const ProjectData = [
     livehere: "https://avinashmahanthi.tech/",
     imgsrc: portfolio,
   },
-    {
+  {
     title: "Waste knot",
     description:
-      "Landing page for an Organization",
+      "Static Landing website for an Organization, In which it contains multiple routes.",
     repo: "",
     livehere: "https://nervous-heisenberg-cb83b3.netlify.app/",
-    imgsrc: crypto,
+    imgsrc: wasteknot,
   },
   {
     title: "Rock-Paper-Scissor",

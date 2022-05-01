@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 // import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -14,8 +15,13 @@ const ProjectCard = (props) => {
           <h5 className="card-title font-weight-bold">{props.title}</h5>
           <p className="card-text">{props.description}</p>
           <div></div>
-          <a href={props.repo} target="/blank" className="btn-repo">
+          <a
+            href={props.repo}
+            target="/blank"
+            className={props.livehere ? "btn-repo" : "hidden btn-repo"}
+          >
             Repo
+            <FontAwesomeIcon icon="fa-brands fa-github" />
           </a>
           <a
             className={props.livehere ? "" : "hidden"}
