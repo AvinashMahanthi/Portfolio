@@ -12,7 +12,7 @@ const ProjectData = [
     title: "College club App",
     description:
       "A static app for the college club to get all the updates of the college.",
-    repo: "https://github.com/AvinashMahanthi/Flutter_LoginUI-s",
+    repo: "https://github.com/AvinashMahanthi/Innovation_Club_demo",
     livehere: "",
     imgsrc: club,
   },
